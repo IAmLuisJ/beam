@@ -29,7 +29,7 @@ cp .env.example .env
 npx prisma db push
 ```
 
-### Configure authentication
+### Configure authentication (required)
 
 GitHub and Okta authentication settings are available as defaults, but thanks to NextAuth.js, you can configure your Beam instance with most other common authentication providers.
 
