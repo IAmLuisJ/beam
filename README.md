@@ -72,4 +72,6 @@ One-click deploy:
 
 ⚠️ Remember to update your callback URLs after deploying.
 
-##Some note about the NEXT_APP_URL environment variable
+## NEXT_APP_URL environment variable
+
+When deploying to vercel you may have to set the NEXT_APP_URL which is validated as a URL so be sure to include the full URL. For example: https:///www.appName.vercel.app in your Environment Variables.
