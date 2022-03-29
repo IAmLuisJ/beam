@@ -48,6 +48,7 @@ export const serverEnv = {
     DATABASE_URL: str(),
     NEXT_APP_URL: url({
       devDefault: 'http://localhost:3000',
+      allowEmpty: true
     }),
     NEXTAUTH_SECRET: str({
       devDefault: 'xxx',
